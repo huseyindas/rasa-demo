@@ -1,0 +1,7 @@
+.env
+auth/*
+certs/*
+credentials/*
+db/*
+logs/*
+models/*
