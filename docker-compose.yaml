@@ -48,8 +48,6 @@ services:
     image: rasa/rasa-x:${RASA_X_VERSION}
     expose:
       - "5002"
-    ports:
-      - "5002:5002"
     restart: always
     volumes:
       - ./models:/app/models
